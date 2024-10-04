@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="personal.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <!-- head-par (hp)-->
+     <div class="img">
+
+     </div>
+    <div class="head-part ">
+      <div class="head-head row">
+        <!-- sha -->
+        <div class="col-2 hh-sha">
+            <h1 class="text-dark">Sha.</h1>
+        </div>
+        <!-- nav bar -->
+        <div class="col-8 hh-nav ">
+            <a href="" class="text-decoration-none text-dark">Home</a>
+            <a href="#education" class="text-decoration-none text-dark">Education</a>
+            <a href="#projects" class="text-decoration-none text-dark">Projects</a>
+            <a href="#about" class="text-decoration-none text-dark">About</a>
+            <i class="fa-solid fa-bars menuI"></i>
+        </div>
+        <!-- lets talk -->
+        <div class="col-2 hh-talk">
+           <div H class="talk-btn"><button  type="button" class="btn btn-dark"><a href="#m"></a>Let's talk</button></div>
+        </div>
+     </div>
+
+     <div class="details">
+        <!-- Left side content -->
+        <div class="left">
+            <h1 class="text- hai">Hi, I'm Shanif</h1>
+            <h4>I am a software developer student, Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, sit odit ducimus blanditiis.</h4>
+            <div class="bbb" id="#m"><button type="button" class="btn btn-dark">Let's talk</button></div>
+        </div>
+        
+        <!-- Right side content (can be an image or any other content) -->
+        <div class="right">
+            <img src="resized_personal_photo_400x400.jpg" alt="Profile Image" class="img-fluid">
+        </div>
+    </div>
+
+
+    <div class="icon">
+       <div class="insta ic">
+        <a href="https://www.instagram.com/invites/contact/?igsh=pkyeb2nf4iy0&utm_content=81uu2lp"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+       </div>
+
+       <div class="facebook ic">
+        <a href="https://www.facebook.com/shanif.sha.73157?mibextid=ZbWKwL"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+       </div>
+
+       <div class="telegram  ic">
+                <a href=""><i class="fa-brands fa-telegram fa-2xl"></i></a>
+       </div>
+       <div class="linked-in ic">
+            <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BE8ICH07sTy2ZvQGOWD5hBw%3D%3D"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+       </div>
+
+    </div>
+    
+    </div>
+
+    <!-- down-part (dp)-->
+     <div  class="mid-part">
+        <!-- about -->
+        <div class="container" id="about">
+            <h2 class="text-decoration-underline">About me</h2>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis libero quaerat id voluptatum sunt, excepturi et quidem ad odit voluptatibus saepe tempora vitae ratione laudantium possimus unde amet consequatur omnis?</p>
+        </div>
+        <!-- Projects -->
+        <div class="container" id="projects">
+            <h2 class="text-decoration-underline">Projects</h2>
+            <br>
+            <h5><i class="fa-solid fa-arrow-right fa-sm"></i> <a href="linked in/index.html" class="text-decoration-none text-dark" title="se  my work">Linked in interface</a></h5>
+        </div>
+        <!-- Education -->
+         <div class="container" id="education">
+           <h2 class="text-decoration-underline">Education</h2>
+           <br>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis necessitatibus, amet laudantium quo laborum dolor dolorum! Placeat, culpa, fugiat laboriosam odio accusamus maxime officia unde error rem dolor cum quia?</p>
+
+         </div>
+      
+
+     </div>   
+
+    <!-- down part -->
+    <div class="down-part" id="m">
+        <!-- mail -->
+      <div class="mail">
+        <div class="form">
+        <!-- <form> -->
+            <input type="text" id="fullName" placeholder="Your name...">
+            <input type="email"id="email_id"  placeholder="e mail">
+            <textarea id="message" rows="4" placeholder="How can i help you...?"></textarea>
+            <button type="submit" class="btn btn-dark  bt" onclick="sendMail()">Submit</button>
+        <!-- </form> -->
+      </div >
+    </div>
+      <div  class="footer container">
+        <p>&copy; 2024 shanif. All rights reserved.</p>
+         
+      </div>
+
+    </div>
+
+     <!-- scripts -->
+      <script src="js/bootstrap.js"></script>
+      <script src="personal.js" typr="text/javascript"></script>
+
+         <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+          </script>
+          <script type="text/javascript">
+                    (function(){
+                        emailjs.init({
+                          publicKey: "8GgViKFuXpvDzSz0J",
+                        });
+                    })();
+          </script>
+
+
+      
+</body>
+</html>
